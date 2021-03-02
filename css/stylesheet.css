@@ -1,0 +1,773 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+h1, h2, h3, h4, h5, span, p {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    display: block;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('../img/bacground/header/background-concentrated-doctor-working-with-a-virtual-screen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    width: 100%;
+    height: 80vh;
+}
+
+.header__nav {
+    display: block;
+    background-color: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: auto;
+}
+
+.container__header-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.header__flex h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__logo {
+    display: block;
+    width: 10%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.header__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header__content-img {
+    display: block;
+    width: 10%;
+    height: auto;
+    margin-left: auto;
+    margin-right: 13%;
+    margin-top: 2%;
+}
+
+.header__content-img img {
+    width: 100%;
+    height: auto;
+}
+
+.header__button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 15%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 9%;
+    margin-top: 1%;
+    transition: .2s ease-in-out;
+}
+
+/* Block1 */
+
+.section1 {
+    background-image: url('../img/bacground/background-61802.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.section1__h1 {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+}
+
+.section1__h2 {
+    width: 80%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section1__button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 35%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 1% auto;
+    transition: .2s ease-in-out;
+}
+
+/* Block2 */
+
+.section2 {
+    background-color: #e6e6e6;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+.section2__h1 {
+    padding: 1%;
+    text-align: center;
+}
+
+.section2__h2 {
+    padding: 1%;
+    text-align: center;
+}
+
+.section2__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.section2__box {
+    display: block;
+    position: relative;
+    width: 25vw;
+    height: 35vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    transition: .2s ease-in-out;
+}
+
+.section2__img1 {
+    background-image: url('../img/Block-2__BoxServicesImg/searchDoctor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__img2 {
+    background-image: url('../img/Block-2__BoxServicesImg/PharmacyOnline.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__img3 {
+    background-image: url('../img/Block-2__BoxServicesImg/consultationDoctor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__img4 {
+    background-image: url('../img/Block-2__BoxServicesImg/Information.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__img5 {
+    background-image: url('../img/Block-2__BoxServicesImg/help.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__img6 {
+    background-image: url('../img/Block-2__BoxServicesImg/Recording.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.section2__blueBlock {
+    display: flex;
+    background-image: url(../img/bacground/BlueBlock.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    width: 15vw;
+    height: 32vh;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.section2__blueBlock:hover {
+    transform: scale(2.2);
+    transition: .2s ease-in-out;
+}
+
+.section2__blueBlock h3 {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+/* Block3 */
+
+.section3 {
+    background-image: url('../img/bacground/background-61802.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.section3__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.section3__h3 {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.section3__button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 20%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 0 auto;
+    transition: .2s ease-in-out;
+}
+
+/* Block4 */
+
+.section4 {
+    display: block;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100vh;
+}
+
+.section4__h1 {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.section4__h3 {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+}
+
+.section4__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section4__boxContent {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.section4__img {
+    display: block;
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section4__img img {
+    width: 450px;
+    height: auto;
+}
+
+.section4__img2 {
+    display: block;
+    width: 145px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section4__img2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section4__buttunBox {
+    display: block;
+    margin-top: 4%;
+}
+
+.section4__button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 80%;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 3% auto;
+    transition: .2s ease-in-out;
+}
+
+.section4__button2 {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 60%;
+    height: auto;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 3% auto;
+    transition: .2s ease-in-out;
+}
+
+/* Block5 */
+
+.section5 {
+    display: block;
+    position: relative;
+    background-image: url('../img/bacground/background-61802.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.section5__h1 {
+    display: block;
+    padding: 1%;
+    text-align: center;
+}
+
+.section5__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.section5__boxReviews {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.section5__buttonImgUser {
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.section5__buttonImgUser:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section5__buttonImgUser img {
+    width: 80%;
+    height: 95%;
+    border-radius: 150px;
+}
+
+.section5__userName {
+    display: block;
+    text-align: center;
+}
+
+/* !ModuleBlockSection5 */
+
+.body__opacity {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .25);
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+}
+
+.section5__moduleBlock {
+    display: block;
+    position: relative;
+    width: 40%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    margin: 5% auto;
+    border-radius: 10px;
+    animation: widthModule .5s;
+}
+
+@keyframes widthModule {
+    0% {
+        width: 0%;
+    }
+    25% {
+        width: 10%;
+    }
+    50% {
+        width: 20%;
+    }
+    75% {
+        width: 30%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.section5__imgUser {
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 4%;
+    animation: opacity .8s;
+}
+
+.section5__imgUser img {
+    width: 100%;
+    height: 100%;
+    border-radius: 150px;
+}
+
+.section5__textUser {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    animation: opacity .8s;
+}
+
+.section5__nameUser {
+    display: block;
+    margin-top: 5%;
+    padding: 5%;
+    animation: opacity .8s;
+}
+
+.section5__module-block_close-open {
+    display: block;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    animation: opacity .8s;
+}
+
+.section5__module-block_close-open img {
+    width: 100%;
+    height: auto;
+}
+
+.section5__module-block_close-open:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+#section5__moduleBlock-1, #section5__moduleBlock-2, #section5__moduleBlock-3, #section5__moduleBlock-4 {
+    display: none;
+}
+
+/* !ModuleBlockSection5 end */
+
+/* Block6 */
+
+.section6 {
+    display: block;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100vh;
+}
+
+.section6__h1 {
+    display: block;
+    text-align: center;
+    padding: 2%;
+}
+
+.section6__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.section6__box {
+    display: block;
+    position: relative;
+    width: 40%;
+    height: 70vh;
+    margin: 1% auto;
+    border-radius: 10px;
+}
+
+.section6__box-1 {
+    background-image: url('../img/Block6/Article1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section6__box-2 {
+    background-image: url('../img/Block6/Article2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section6__line {
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 2%;
+}
+
+.section6__line h2, .section6__line h3 {
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+.section6__button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 50%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 0 auto;
+    transition: .2s ease-in-out;
+}
+
+/* Footer */
+
+.footer {
+    background-image: url('../img/bacground/Footer/Recording3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .10);
+}
+
+.footer__box-1 {
+    background-color: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: 22vh;
+}
+
+.footer__logo {
+    display: block;
+    width: 5%;
+    height: auto;
+    padding-top: 2%;
+    margin: 0 auto;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer__text {
+    text-align: center;
+    width: 60%;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+.footer__box-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.box-2__item {
+    display: block;
+    width: 20%;
+    height: auto;
+}
+
+.footer__box-2 h2 {
+    text-align: center;
+}
+
+.footer__item-button {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 5% auto;
+    transition: .2s ease-in-out;
+}
+
+.footer__box-3 {
+    background-color: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: auto;
+}
+
+.box-3__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1%;
+}
+
+.box-3__h3-2 {
+    width: 85%;
+    text-align: center;
+}
+
+/* !blueButton:hover start*/
+
+.header__button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section1__button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section3__button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section4__button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section4__button2:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.section6__button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.footer__item-button:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+/* !blueButton:hover end */

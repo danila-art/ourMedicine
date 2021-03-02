@@ -1,0 +1,186 @@
+.body__opacity {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+}
+
+.body__block-abs {
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: 2% auto;
+    border-radius: 10px;
+    z-index: 200;
+    padding: 1%;
+
+    animation: width-block-abs 1s ease-in-out;
+}
+
+@keyframes width-block-abs {
+    0% {
+        width: 0%;
+    }
+    20% {
+        width: 25%;
+    }
+    40% {
+        width: 50%;
+    }
+    60% {
+        width: 70%;
+    }
+    80% {
+        width: 70%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes opacity-abs-content {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    80% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.block-abs__content {
+    display: block;
+    animation: opacity-abs-content 1s ease-in-out;
+}
+
+.block-abs__close-icon {
+    display: block;
+    position: absolute;
+    width: 10%; 
+    height: auto;
+    right: 1%;
+    top: 1%;
+}
+
+.block-abs__close-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.block-abs__doctor-img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+
+.block-abs__doctor-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.block-abs__h2 {
+    display: block;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.block-abs__h2-2 {
+    display: block;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.block-abs__chart {
+    display: block;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.block-abs__chart-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 70%;
+    height: auto;
+    margin: 1% auto;
+}
+
+/* .chart-flex__day-of-week {}
+
+.chart-flex__time {} */
+
+.block-abs__button-1 {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 70%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 2% auto;
+    transition: .2s ease-in-out;
+}
+
+.block-abs__button-2 {
+    background-color: hsla(184, 81%, 51%, .5);
+    width: 40%;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .05);
+    cursor: pointer;
+    margin: 2% auto;
+    transition: .2s ease-in-out;
+}
+
+.block-abs__button-1:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+.block-abs__button-2:hover {
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+/* !font-size start */
+
+.block-abs__h2 {
+    font-size: 14px;
+}
+
+.block-abs__h2-2 {
+    font-size: 14px;
+}
+
+.chart-flex__day-of-week {
+    font-size: 12px;
+}
+
+.chart-flex__time {
+    font-size: 12px;
+}
+
+/* !font-size end */
