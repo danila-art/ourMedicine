@@ -364,7 +364,7 @@ function onLoadInnerPage() {
     errorArray.forEach(elementErrorArray => {
         console.error(elementErrorArray);
     });
-} 
+}
 
 // Функция закрытия модульного окна
 function closeIcon(closeIcon) {

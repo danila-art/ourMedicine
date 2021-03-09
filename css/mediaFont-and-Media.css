@@ -258,6 +258,9 @@ h4 {
         width: 90%;
         height: auto;
     }
+    .footer__box-1 {
+    height: 22vh;
+    }
     .footer__box-2 {
         flex-wrap: wrap;
     }
@@ -266,6 +269,12 @@ h4 {
     }
     .box-3__flex {
         display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .box-3__h3-2{
+        width: 100%;
     }
     .section5__moduleBlock {
         width: 80%;
